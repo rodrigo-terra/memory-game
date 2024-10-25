@@ -22,3 +22,49 @@ body {
   );
   padding: 40px 60px;
 }
+
+h2 {
+  font-size: 3em;
+  color: #ffffff;
+  text-transform: uppercase; /* Aplica caixa alta em todas as letras */
+  letter-spacing: 0.1em; /* Aplica espaçamento entre as letras */
+}
+
+.reset {
+  padding: 15px 20px;
+  width: 100%;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.reset:focus {
+  color: #ec38bc;
+  background-color: #262809;
+}
+
+.game {
+  border: 1px solid #ff0000;
+  width: 430px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+
+.item {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
